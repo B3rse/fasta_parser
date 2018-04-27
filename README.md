@@ -8,4 +8,4 @@ Michele Berselli, <berselli.michele@gmail.com>
 To use the library simply `import fasta_parser` into your code.
 
 ## **Libraries** 
-//bitarray// library is required
+*bitarray* library is required
