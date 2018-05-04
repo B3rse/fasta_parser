@@ -37,7 +37,7 @@ class FastaHandler(object):
 	''' a class to implement an object to handle multiple fasta sequences '''
 
 	########################################
-	####		CLASS sequence          ####
+	####		CLASS FastaSequence    ####
 	########################################
 	class FastaSequence(object):
 		''' a class to implement an object representing a fasta sequence '''
@@ -93,7 +93,7 @@ class FastaHandler(object):
 			#end if
 		#def write_sequence
 
-	#end class sequence
+	#end class FastaSequence
 
 	## FUNCTIONS ##
 	def __init__(self):
@@ -101,7 +101,7 @@ class FastaHandler(object):
 	#end def __init__
 
 	def parse(self, inputfile):
-		''' adds fasta sequences as Sequence objects '''
+		''' adds fasta sequences as FastaSequence objects '''
 		header, sequence = None, []
 		fi = self.__open(inputfile)
 		for line in fi:
@@ -117,7 +117,7 @@ class FastaHandler(object):
 	#end def parse
 
 	def parse_binary(self, inputfile):
-		''' adds fasta sequences binary encoded as Sequence objects, 
+		''' adds fasta sequences binary encoded as FastaSequence objects, 
 		works only for upper or lower canonical bases A, C, T, G '''
 		encode = {
 				'A': '00', 'a': '00',
