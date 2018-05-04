@@ -42,7 +42,7 @@ To access the stored sequences differrent methods can be used:
 	
 	`handler.get_sequences()`
 
- - **write_sequences(** *fo, max_char_per_line* **)** method writes the sequences in fasta format to buffer (*fo*) using a maximum (*max_char_per_line*) number of characters per line.
+ - **write_sequences(** *fo, [max_char_per_line]* **)** method writes the sequences in fasta format to buffer (*fo*) using a maximum (*max_char_per_line*) number of characters per line.
 
 	`handler.write_sequences(fo, [max])`
 
@@ -66,7 +66,7 @@ Initialize the object with `sequence = fasta_parser.FastaSequence(header, sequen
 
 	`sequence.get_bitarray()`
 
- - **write_sequence(** *fo, max_char_per_line* **)** method writes the sequence in fasta format to buffer (*fo*) using a maximum (*max_char_per_line*) number of characters per line.
+ - **write_sequence(** *fo, [max_char_per_line]* **)** method writes the sequence in fasta format to buffer (*fo*) using a maximum (*max_char_per_line*) number of characters per line.
 
 	`sequence.write_sequence(fo, [max])`
 
