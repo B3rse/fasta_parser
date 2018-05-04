@@ -47,10 +47,10 @@ To access the stored sequences differrent methods can be used:
 	`handler.write_sequences(fo, [max])`
 
 ### **FastaSequence**
-The FastaSequence is an object that stores the information for a fasta sequences. Contains the header of the sequence and the sequence itself. The sequence can be stored as a string of charachters or as a bitarray that represents the binary encoding for the sequence (two bits per character).
+The FastaSequence is an object that stores the information for a fasta sequence. Contains the header of the sequence and the sequence itself. The sequence can be stored as a string of charachters or as a bitarray that represents the binary encoding for the sequence (two bits per character).
 
 #### Initialize the object
-Initialize the object with `sequence = fasta_parser.FastaSequence(header, sequence)`.
+Initialize the object with `sequence = fasta_parser.FastaHandler.FastaSequence(header, sequence)`.
 
 #### Access information stored in the object
 
