@@ -31,7 +31,7 @@ from bitarray import bitarray
 
 
 ########################################
-####		CLASS fasta_handler     ####
+####		CLASS FastaHandler     ####
 ########################################
 class FastaHandler(object):
 	''' a class to implement an object to handle multiple fasta sequences '''
