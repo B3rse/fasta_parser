@@ -1,5 +1,5 @@
 # fasta_parser
-A python (v 2.7) library that implements a fasta / multi-fasta parser with some useful features.
+A python library that implements a fasta / multi-fasta parser with some useful features.
 
 ## **Contacts**
 Michele Berselli, <berselli.michele@gmail.com>
